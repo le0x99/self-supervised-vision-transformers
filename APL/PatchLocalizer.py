@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import sys;sys.path.insert(0,'..')
-from utils.base_models import *
+import sys
+from base_models import *
 
 
 
@@ -74,12 +74,6 @@ class MaskedContextLearner(nn.Module):
         Y = X.mean(1)
         Y = self.head(Y)
         return Y
-    
-
-    
-    
-    
-    
     
     
     
