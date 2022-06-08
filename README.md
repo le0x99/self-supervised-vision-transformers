@@ -1,2 +1,9 @@
-# self-supervised-vision-transformers
-From scratch implementation of self-supervision training routines for learning contextual image representations.
+# Self Supervised Contextual Representation Learning 
+
+
+## Transformer Puzzle : Absolute Position Localization (APL - $G$) 
+
+
+![image.png](puzzle_large.PNG)
+
+
